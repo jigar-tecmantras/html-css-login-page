@@ -77,7 +77,7 @@ h1 {
 .field-label-row { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
 label { color: var(--ink); font-size: 14px; font-weight: 600; }
 
-input[type='email'], input[type='password'] {
+input[type='text'], input[type='email'], input[type='password'] {
   width: 100%;
   padding: 14px 16px;
   border: 1px solid var(--line);
@@ -89,7 +89,7 @@ input[type='email'], input[type='password'] {
   transition: border-color 160ms ease, box-shadow 160ms ease, background 160ms ease;
 }
 
-input[type='email']:focus, input[type='password']:focus {
+input[type='text']:focus, input[type='email']:focus, input[type='password']:focus {
   border-color: var(--primary);
   background: #fff;
   box-shadow: 0 0 0 4px var(--focus);

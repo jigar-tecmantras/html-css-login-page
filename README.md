@@ -1,18 +1,20 @@
-# HTML/CSS Login Page
+# HTML/CSS Login and Registration Pages
 
-A responsive, frontend-only login page built with semantic HTML5 and modern CSS3.
+Responsive, frontend-only login and registration pages built with semantic HTML5 and modern CSS3.
 
 ## Features
 
-- Responsive desktop and mobile layout
+- Responsive desktop and mobile layouts
 - Accessible labels and keyboard focus states
-- Native browser validation for email and password fields
-- Remember-me checkbox
-- Forgot-password and account-creation links
-- No backend or external authentication providers
+- Native browser validation for required, email, and password fields
+- Login page at `index.html`
+- Registration page at `register.html`
+- Navigation links connecting both pages
+- Remember-me and terms-and-conditions checkboxes
+- No backend authentication or external authentication providers
 
 ## Run locally
 
-Open `index.html` directly in a browser, or serve the folder with any static web server.
+Open `index.html` directly in a browser, or serve the project with any static web server.
 
-> The form is presentation-only. It does not submit credentials to a backend.
+> The forms are presentation-only. They do not submit credentials to a backend.
